@@ -299,6 +299,7 @@ export default function Page() {
                         >
                           <Input
                             isRequired
+                            errorMessage="Masukan nama siswa"
                             name="nama"
                             classNames={{
                               inputWrapper: [
@@ -311,9 +312,9 @@ export default function Page() {
                           />
 
                           <Select
-                            isRequired
                             name="kelas"
                             items={kelasSelect}
+                            isRequired
                             label="Kelas"
                             placeholder="Pilih Kelas Siswa"
                             classNames={{
@@ -330,6 +331,7 @@ export default function Page() {
                             )}
                           </Select>
                           <Input
+                            errorMessage="Masukan hobi siswa"
                             isRequired
                             name="hobi"
                             classNames={{

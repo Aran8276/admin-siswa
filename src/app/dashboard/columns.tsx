@@ -238,6 +238,7 @@ export const columns: ColumnDef<DataSiswa>[] = [
                       <Input
                         name="nama"
                         isRequired
+                        errorMessage="Masukan nama siswa"
                         value={nama}
                         onChange={handleNamaChange}
                         // className="focus-visible:ring-0 dark:focus-visible:ring-2"
@@ -274,6 +275,7 @@ export const columns: ColumnDef<DataSiswa>[] = [
                       <Input
                         name="hobi"
                         isRequired
+                        errorMessage="Masukan hobi siswa"
                         value={hobi}
                         onChange={handleHobiChange}
                         classNames={{

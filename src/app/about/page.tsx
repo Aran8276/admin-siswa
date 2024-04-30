@@ -19,7 +19,7 @@ import {
 import { Card } from "@nextui-org/react";
 import { useRouter } from "next/navigation";
 
-export default function page() {
+export default function Page() {
   const router = useRouter();
   const pushToDash = (event: any) => {
     event.preventDefault();
