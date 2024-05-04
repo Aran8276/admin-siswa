@@ -42,3 +42,9 @@ DB_NAME=dbname
 DB_USER=root
 DB_PASS=
 ```
+
+## Preview
+
+![Photo](https://github.com/Aran8276/admin-siswa/assets/20200187/0811dc5c-a94a-475d-821a-1af3ff6a1ffe)
+
+
