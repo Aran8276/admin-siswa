@@ -32,6 +32,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## MySQL Databse Setup
 
 Database Schema
+
 ![MySQL Table Diagram](https://github.com/Aran8276/admin-siswa/assets/20200187/a8dd1113-3570-4425-9713-9c56e8b9cf9f)
 
 Setup with `.env.local`
