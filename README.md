@@ -34,3 +34,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+![MySQL Table Diagram](https://github.com/Aran8276/admin-siswa/assets/20200187/a8dd1113-3570-4425-9713-9c56e8b9cf9f)
+
+Setup with `.env.local`
+
+```env
+DB_HOST=localhost
+DB_NAME=dbname
+DB_USER=root
+DB_PASS=
+```
