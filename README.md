@@ -1,33 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Ini adalah proyek [Next.js](https://nextjs.org/) yang diinisialisasi dengan [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-First, run the development server:
-
+## Mulai
+Pertama, instalasi `node_modules`
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Kedua, jalankan server development:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
 
-## Learn More
+Anda dapat mulai mengedit halaman dengan memodifikasi `app/page.tsx`. Halaman akan diperbarui secara otomatis saat Anda mengedit file tersebut.
 
-To learn more about Next.js, take a look at the following resources:
+Proyek ini menggunakan [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) untuk mengoptimalkan dan memuat Inter, sebuah Font Google khusus.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Pelajari Lebih Lanjut
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Untuk mempelajari lebih lanjut tentang Next.js, lihat sumber daya berikut:
+
+- [Dokumentasi Next.js](https://nextjs.org/docs) - pelajari tentang fitur dan API Next.js.
+- [Belajar Next.js](https://nextjs.org/learn) - tutorial interaktif Next.js.
+
+Anda dapat melihat repositori [GitHub Next.js](https://github.com/vercel/next.js/) - umpan balik dan kontribusi Anda sangat dihargai!
 
 ## MySQL Database Setup
 
